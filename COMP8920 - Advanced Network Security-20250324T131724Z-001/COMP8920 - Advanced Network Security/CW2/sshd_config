@@ -1,0 +1,9 @@
+Port 22
+PermitRootLogin yes
+PasswordAuthentication yes
+PubkeyAuthentication no
+Ciphers aes128-cbc
+KexAlgorithms diffie-hellman-group1-sha1
+AllowTcpForwarding no
+PermitEmptyPasswords yes
+Banner /home/ssh/banner.txt
